@@ -1,3 +1,5 @@
+daige
+
 #   Stepper [![Build Status](https://travis-ci.org/PygmySlowLoris/vue-stepper.svg?branch=master)](https://travis-ci.org/PygmySlowLoris/vue-stepper)
 
 <p align="center">
@@ -43,7 +45,7 @@ npm install vue-stepper --save
 | Event name            | When      |
 | :---------------      | :-------  |
 |  `completed-step`           | Triggered when a step is completed. Completed meaning that current step has been left behind on the step list. Now you can mark your step object as completed if you desire it.|
-|  `active-step`           | Current active step. It's `name` and `index` are exposed on the deployed payload.| 
+|  `active-step`           | Current active step. It's `name` and `index` are exposed on the deployed payload.|
 |  `stepper-finished`           | Event emitted when the user clicks the final button. Now it's time to execute a final callback method|
 |  `clicking-back`           | Triggered when user clicks the back button to return to a previous step|
 |  `reset`           | Triggered when the steps have been reset. So now it's pointing to the first step with cleared fields|
